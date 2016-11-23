@@ -8,15 +8,20 @@ import Personne.Personne;
 public class Employe extends Personne {
     protected String dateEmbauche;
 
-    public Employe (String nom, String prenom)
+    public Employe (String Nom, String prenom)
     {
-        super(nom, prenom);
+        super(Nom, prenom);
     }
 
-    public Employe(String nom,String prenon,String dateNaissance, String sexe, String etat,String dateEmbauche)
+    public Employe(String Nom,String prenom,String dateNaissance, String sexe, String etat,String dateEmbauche)
     {
-        super(nom,prenon,dateNaissance,sexe,etat);
+        super(Nom,prenom,dateNaissance,sexe,etat);
         this.dateEmbauche=dateEmbauche;
+    }
+
+    public String Getprenom()
+    {
+        return prenom;
     }
 
     public String getdateEmbauche()

@@ -51,7 +51,7 @@ public class Personne {
       {
           System.out.println(" nom: "+nom+" prénom "+prenom+" date de naissance "+dateNaissance+" sexe "+sexe);
       }
-    public String Getprenom()
+    public String getprenom()
     {
         return prenom;
     }
