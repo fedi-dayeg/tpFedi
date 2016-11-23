@@ -24,5 +24,9 @@ public class testpersonne {
         C1=new Client("alfred","nobel","11/1871","M","marie","suisse",co);
 
         System.out.println(C1.toString());
+
+        Agence ag;
+        ag=new Agence("cheba");
+        
     }
 }
