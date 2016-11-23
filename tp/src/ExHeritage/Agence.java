@@ -93,4 +93,14 @@ public class Agence {
             System.out.println(listClient[i].toString());
         }
     }
+
+    public boolean equales (Agence a)
+    {
+        if(this.adresse==a.adresse)
+            return true;
+        else
+            return false;
+    }
+
+
 }
